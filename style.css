@@ -1,0 +1,62 @@
+.menu-bar{
+	text-align: center;
+	height: 120px;
+	background: green;
+	line-height: 120px;
+}
+a{
+	text-decoration: none;
+}
+.menu-bar ul li{
+	display: inline-block;
+}
+.menu-bar ul li a{
+	font-size: 16px;
+	color: white;
+	font-weight: 600;
+	margin: 0px 10px;
+	transition: 0.5s
+}
+.menu-bar ul li a:hover{
+	color: red;
+	font-size: 20px;
+	transition: 0.5s;
+
+}
+.banner{
+	width: 100%;
+	background-image: url(nature.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh; 
+}
+.Social-icon{
+	text-align: center;
+	color: orange;
+	padding: 300px;
+
+}
+.Social-icon ul li{
+	display: inline-block;
+	list-style: none;
+}
+.Social-icon ul li a i{
+	font-size: 20px;
+	height: 60px;
+	width: 60px;
+	background: red;
+	text-align: center;
+	border-radius: 100%;
+	line-height: 60px;
+	color: white;
+	transition: 0.5s;
+
+
+}
+.Social-icon ul li a i:hover{
+	color: green;
+	transition: 0.5s;
+	font-size: 20px;
+
+}
